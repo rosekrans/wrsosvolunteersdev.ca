@@ -41,7 +41,7 @@ class LoginController extends Controller
     protected function authenticated($request, $user)
     {
        if ($user->isActive()) {
-            $request->session()->flash('status', 'Please remember to update your postal code in your MyWRSOS Profile page.');
+            $request->session()->flash('status', 'TEST Vulco');
             $request->session()->flash('statusCode', -1);
             return redirect()->intended($this->redirectPath());
         } else {
