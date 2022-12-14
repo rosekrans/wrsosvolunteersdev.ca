@@ -50,6 +50,7 @@
     },
     "config": {
         "preferred-install": "dist",
+        "allow-plugins": true,
         "sort-packages": true,
         "optimize-autoloader": true
     }
