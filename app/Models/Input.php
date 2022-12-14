@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+use \Illuminate\Support\Facades;
 
 
 /**
@@ -45,7 +46,7 @@ namespace App\Models;
  *
  * @see \Illuminate\Http\Request
  */
-class Input extends \Illuminate\Support\Facades
+class Input extends \Illuminate\Support\Facades\Facade
 {
     /**
      * Get an item from the input data.
