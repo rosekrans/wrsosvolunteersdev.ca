@@ -3,7 +3,6 @@
 namespace App\Models;
 use \Illuminate\Support\Facades;
 
-
 /**
  * @method static \Illuminate\Http\Request instance()
  * @method static string method()
