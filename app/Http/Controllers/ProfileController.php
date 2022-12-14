@@ -154,7 +154,7 @@ class ProfileController extends Controller
 
     public function searchPostalCodes($term){
 
-        $search = DB::select("SELECT id, postal_code FROM wrsosvolunteers_ca.postal_codes WHERE postal_code LIKE '%".$term. "%' ORDER BY 1 ASC");
+        $search = DB::select("SELECT id, postal_code FROM wrsosvolunteersdev_ca.postal_codes WHERE postal_code LIKE '%".$term. "%' ORDER BY 1 ASC");
         return Response::json($search);
     }
 }

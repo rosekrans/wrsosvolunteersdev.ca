@@ -148,13 +148,13 @@ class CallLogController extends Controller
 
     public function searchSpecies($term){
 
-        $search = DB::select("SELECT id, species_name FROM wrsosvolunteers_ca.species WHERE species_name LIKE '%".$term. "%' ORDER BY 2 ASC");
+        $search = DB::select("SELECT id, species_name FROM wrsosvolunteersdev_ca.species WHERE species_name LIKE '%".$term. "%' ORDER BY 2 ASC");
         return Response::json($search);
     }
 
     public function searchVolunteers($term){
 
-        $search = DB::select("SELECT id, concat(first_name,' ', last_name) as Name FROM wrsosvolunteers_ca.user_details WHERE concat(first_name,' ', last_name) LIKE '%".$term. "%' ORDER BY 1 ASC");
+        $search = DB::select("SELECT id, concat(first_name,' ', last_name) as Name FROM wrsosvolunteersdev_ca.user_details WHERE concat(first_name,' ', last_name) LIKE '%".$term. "%' ORDER BY 1 ASC");
         return Response::json($search);
     }
 
