@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+
 /**
  * @method static \Illuminate\Http\Request instance()
  * @method static string method()
@@ -44,7 +45,7 @@ namespace App\Models;
  *
  * @see \Illuminate\Http\Request
  */
-class Input extends Facade
+class Input extends \Illuminate\Support\Facades
 {
     /**
      * Get an item from the input data.
