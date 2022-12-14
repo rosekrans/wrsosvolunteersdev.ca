@@ -36,8 +36,8 @@ require __DIR__.'/../wrsosvolunteer/vendor/autoload.php';
 */
 
 
-$app = require_once __DIR__.'/bootstrap/app.php';
-//$app = require_once __DIR__.'/../wrsosvolunteer/bootstrap/app.php';
+//$app = require_once __DIR__.'/bootstrap/app.php';
+$app = require_once __DIR__.'/../wrsosvolunteer/bootstrap/app.php';
 /*
 |--------------------------------------------------------------------------
 | Run The Application
