@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://www.wrsosvolunteers.ca'),
+    'url' => env('APP_URL', 'http://www.wrsosvolunteersdev.ca'),
 
     /*
     |--------------------------------------------------------------------------
