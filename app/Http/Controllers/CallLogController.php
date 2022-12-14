@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Input;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 
@@ -15,7 +15,6 @@ use App\Models\SolutionType;
 use App\Models\PostalCode;
 use App\Models\Call;
 use App\Models\CallActivity;
-use App\Models\Input;
 use App\Http\Requests\StoreCallLog;
 use App\Http\Requests\UpdateCallLog;
 use Auth;
