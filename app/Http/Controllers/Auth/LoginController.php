@@ -37,7 +37,10 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-
+    public function username()
+    {
+        return 'user_name';
+    }
     protected function authenticated($request, $user)
     {
        if ($user->isActive()) {
