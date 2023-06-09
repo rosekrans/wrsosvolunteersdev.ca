@@ -36,9 +36,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => 'localhost',
-            'database' => 'wrsosvolunteersdev_ca',
-            'username' => 'wrsosvolunteersdev',
-            'password' => 'gfrS775~3',
+            'database' => 'wrsosvolunteers_ca',
+            'username' => 'wrsosvolunteers',
+            'password' => 'uMlv24#8',
             'strict' => true,
             'engine' => null,
         ]
